@@ -1,18 +1,20 @@
 <template>
   <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+    <bar-chart></bar-chart>
+    <line-chart></line-chart>
   </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
-
+import BarChart from './components/BarChart'
+import LineChart from './components/LineChart'
 export default {
   name: 'App',
   components: {
-    HelloWorld
-  }
+    BarChart,
+    LineChart
+  },
+ 
 }
 </script>
 
